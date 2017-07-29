@@ -24,9 +24,9 @@ To estimate sentence probabilities, and next word predictions, Chen and Goodman'
 
 ******
 
-#### Hoe to use the Application
+#### How to use the Application
 
-Enter text freely in upper-case or lower-case, and three predictions will appear below as you finish typing every word. 
+Enter text freely in upper-case or lower-case, and three predictions will appear below as you finish typing every word. Please note that periods are treated always as end-of-sentence markers, so abbreviations like Mr. or Mrs. should be typed without the period, i.e.: Mr or Mrs.
 
 ******
 
