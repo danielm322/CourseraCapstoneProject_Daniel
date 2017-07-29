@@ -26,7 +26,7 @@ To estimate sentence probabilities, and next word predictions, Chen and Goodman'
 
 #### How to use the Application
 
-Enter text freely in upper-case or lower-case, and three predictions will appear below as you finish typing every word. Please note that periods are treated always as end-of-sentence markers, so abbreviations like Mr. or Mrs. should be typed without the period, i.e.: Mr or Mrs.
+Enter text freely in upper-case or lower-case, and three predictions will appear below as you finish typing every word. The word "num" stands for any number of any length. Please note that periods are treated always as end-of-sentence markers, so abbreviations like Mr. or Mrs. should be typed without the period, i.e.: Mr or Mrs
 
 ******
 
