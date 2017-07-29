@@ -17,7 +17,7 @@ All processes were done in the R programming language, and some R packages
 
 #### Methods & Models
 
-After creating a data sample from the HC Corpora data, this sample was cleaned by profanity filtering, marking beginning and end of sentences, conversion to lowercase, expansion of contracted forms, conversion of numbers, removing punctuation, links, additional white spaces, and sepcial characters.
+After creating a data sample from the HC Corpora data, this sample was cleaned by performing profanity filtering, marking beginning and end of sentences, conversion to lowercase, expansion of contracted forms, conversion of numbers to token "num", removing punctuation except apostrophes, links, additional white spaces, and special characters.
 This data sample was then [tokenized](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29) into [*n*-grams](http://en.wikipedia.org/wiki/N-gram). Fourgrams, threegrams, brigrams, and unigrams were extracted from the data.
 
 To estimate sentence probabilities, and next word predictions, Chen and Goodman's [Modified Kneser-Ney smoothing](https://dash.harvard.edu/bitstream/handle/1/25104739/tr-10-98.pdf?sequence=1) was used. 
@@ -26,7 +26,7 @@ To estimate sentence probabilities, and next word predictions, Chen and Goodman'
 
 #### How to use the Application
 
-Enter text freely in upper-case or lower-case, and three predictions will appear below as you finish typing every word. The word "num" stands for any number of any length. Please note that periods are treated always as end-of-sentence markers, so abbreviations like Mr. or Mrs. should be typed without the period, i.e.: Mr or Mrs
+Enter text freely in upper-case or lower-case, and three predictions will appear below as you finish typing every word. The predictions appear always in lower-case. The word "num" stands for any number of any length. Please note that periods are treated always as end-of-sentence markers, so abbreviations like Mr. or Mrs. should be typed without the period, i.e.: Mr or Mrs
 
 ******
 
