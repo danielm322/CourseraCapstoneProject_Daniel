@@ -18,7 +18,7 @@ All processes were done in the R programming language, and some R packages
 #### Methods & Models
 
 After creating a data sample from the HC Corpora data, this sample was cleaned by performing profanity filtering, marking beginning and end of sentences, conversion to lowercase, expansion of contracted forms, conversion of numbers to token "num", removing punctuation except apostrophes, links, additional white spaces, and special characters.
-This data sample was then [tokenized](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29) into [*n*-grams](http://en.wikipedia.org/wiki/N-gram). Fourgrams, threegrams, brigrams, and unigrams were extracted from the data.
+This data sample was then [tokenized](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29) into [*n*-grams](http://en.wikipedia.org/wiki/N-gram). Fourgrams, threegrams, bigrams, and unigrams were extracted from the data.
 
 To estimate sentence probabilities, and next word predictions, Chen and Goodman's [Modified Kneser-Ney smoothing](https://dash.harvard.edu/bitstream/handle/1/25104739/tr-10-98.pdf?sequence=1) was used. 
 
