@@ -41,8 +41,6 @@ The word "num" stands for any number of any length. Please note that periods are
 
 * The whole code of this application, as well as all the milestone report, related scripts, this presentation  etc. can be found in this GitHub repo: [https://github.com/danielm322/CourseraCapstoneProject_Daniel](https://github.com/danielm322/CourseraCapstoneProject_Daniel)
 
-* This pitch deck is located here: [http://rpubs.com/](http://rpubs.com/)
-
 * Learn more about the Coursera Data Science Specialization: [https://www.coursera.org/specializations/jhu-data-science](https://www.coursera.org/specializations/jhu-data-science)
 
 <center><img src="logos.png" alt="Drawing" align="center" style="width: 500px;"/></center>
