@@ -20,7 +20,12 @@ All processes were done in the R programming language, and some R packages
 After creating a data sample from the HC Corpora data, this sample was cleaned by performing profanity filtering, marking beginning and end of sentences, conversion to lowercase, expansion of contracted forms, conversion of numbers to token "num", removing punctuation except apostrophes, links, additional white spaces, and special characters.
 This data sample was then [tokenized](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29) into [*n*-grams](http://en.wikipedia.org/wiki/N-gram). Fourgrams, threegrams, bigrams, and unigrams were extracted from the data.
 
-To estimate sentence probabilities, and next word predictions,  Modified [Kneser-Ney smoothing](https://en.wikipedia.org/wiki/Kneser%E2%80%93Ney_smoothing) was used, as proposed in Chen and Goodman's [paper](https://dash.harvard.edu/bitstream/handle/1/25104739/tr-10-98.pdf?sequence=1), section 3. Modified Kneser-Ney smoothing has proved to be one of the best performing smoothing techniques, as is shown in Chen and Goodman's paper.
+#### Properties
+<p align='justify'>Uses one of the best-performing smoothing techniques: Modified <a href="https://en.wikipedia.org/wiki/Kneser%E2%80%93Ney_smoothing"> Kneser-Ney</a>, as proposed in Chen and Goodman's <a href="https://dash.harvard.edu/bitstream/handle/1/25104739/tr-10-98.pdf?sequence=1"> paper</a>, section 3.</p>
+
+<p align='justify'>Has had an 80% accuracy in the course quizzes, and 20% top-3 precision on a test set. These metrics are good since the average for other algorithms is around 50% in course quizes and 15% on a test set.</p>
+Low memory usage: about 20Mb in both the data and the functions, so it is suitable for use in mobile devices.</p>
+<p align='justify'>Fast: returns the three predictions in less than a second.</p>
 
 ******
 
