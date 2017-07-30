@@ -26,7 +26,9 @@ To estimate sentence probabilities, and next word predictions,  Modified [Kneser
 
 #### How to use the Application
 
-Enter text freely in upper-case or lower-case, and three predictions will appear below as you finish typing every word. The predictions appear always in lower-case. You can click on the predictions to include them in the input. The word "num" stands for any number of any length. Please note that periods are treated always as end-of-sentence markers, so abbreviations like Mr. or Mrs. should be typed without the period, i.e.: Mr or Mrs
+Enter text freely in upper-case or lower-case, and three predictions will appear below as you finish typing every word. The predictions appear always in lower-case. You can click on the predictions to include them in the input, pretty much as in cell phones!. 
+
+The word "num" stands for any number of any length. Please note that periods are treated always as end-of-sentence markers, so abbreviations like Mr. or Mrs. should be typed without the period, i.e.: Mr or Mrs
 
 ******
 
