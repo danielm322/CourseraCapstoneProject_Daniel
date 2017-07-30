@@ -45,4 +45,4 @@ The word "num" stands for any number of any length. Please note that periods are
 
 * Learn more about the Coursera Data Science Specialization: [https://www.coursera.org/specializations/jhu-data-science](https://www.coursera.org/specializations/jhu-data-science)
 
-<center><img src="logos.png" alt="Drawing" align="center" style="width: 600px;"/></center>
+<center><img src="logos.png" alt="Drawing" align="center" style="width: 500px;"/></center>
